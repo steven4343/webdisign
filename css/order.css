@@ -1,0 +1,82 @@
+/* External CSS */
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh; /* Ensure the body takes the full viewport height */
+}
+header {
+    background-color: aqua;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+
+}
+.sec1 {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+}
+.inp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 100%;
+} 
+.pic1 {
+    width: 70%;
+    height: 70%;
+}
+.inp input {
+    width: 40%;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+.inp select {
+    width: 20%;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.inp label {
+    font-size: 20px;
+    font-weight: bold;
+}
+.input2 input {
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.input2 select {
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.input2 button {
+    width: 70%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: white;
+    box-shadow: 5px 10px 18px black;
+}
+.input2 button:hover {
+    background-color: black;
+    color: white;
+}
